@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html>
-<title>HTML Tutorial</title>
+<head>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@clappr/player@latest/dist/clappr.min.js"></script>
+</head>
 <body>
-
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
-
+  <div id="player"></div>
+  <script>
+    var player = new Clappr.Player({source: "http://your.video/here.mp4", parentId: "#player"});
+  </script>
 </body>
-</html>
-
